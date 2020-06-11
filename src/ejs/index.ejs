@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <%-
+    include('_includes/_head', {
+      meta: {
+        title: '',
+        description: 'ディスクリプション'
+      }
+    });
+  %>
+</head>
+<body>
+  <%-
+    include('_includes/_nav', {
+      current: 'home'
+    });
+  %>
+
+  <div id="l-header">
+    aaaa
+  </div>
+
+  <p>Hello World.</p>
+
+  <div class="test-grid">
+    <div class="test-grid__a">1</div>
+    <div class="test-grid__b">2</div>
+    <div class="test-grid__c">3</div>
+  </div>
+
+  <div class="test-grid2">
+    <div class="test-grid__a">1</div>
+    <div class="test-grid__b">2</div>
+    <div class="test-grid__c">3</div>
+  </div>
+
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+$color-a: #000;
+$color-b: #81bd38;
+
+// Font Family
+$serif-a: serif;
+$sans-serif-a: sans-serif;
+
+
+
+// unit
+// --------------------------------------------------------------------------
+// viewport size(for smartphone)
+// デバイス幅 750px のデザインカンプ上で何pxかを表す
+// 下記の例はカンプ上の60px
+// ```scss
+// .sample {
+//   width: 60 * $vw;
+// }
+// ```
+$vw: 100vw / 750;
