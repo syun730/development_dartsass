@@ -1,5 +1,5 @@
 const gulp = require('gulp')
-const sass = require('gulp-sass')
+const sass = require('gulp-dart-sass')
 const sourcemaps = require('gulp-sourcemaps')
 const autoprefixer = require('gulp-autoprefixer')
 const rename = require('gulp-rename')
@@ -9,8 +9,6 @@ const sassGlob = require('gulp-sass-glob')
 const uglify = require('gulp-uglify-es').default
 const through2 = require('through2')
 const del = require('del')
-
-sass.compiler = require('sass')
 
 // gulp.task('html', cb => {
 //   return gulp
