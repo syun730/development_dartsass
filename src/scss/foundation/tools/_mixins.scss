@@ -43,10 +43,8 @@
 // Breakpoint
 $screen: (
   sm: 320px,
-  md: 768px,
-  lg: 1040px,
-  lg2: 1210px,
-  lg3: 1320px
+  md: 767px,
+  lg: 1040px
 ) !default;
 
 @mixin mq($size, $width: max) {

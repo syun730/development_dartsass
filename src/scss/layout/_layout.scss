@@ -1,11 +1,9 @@
-@use "foundation/variables" as var;
-@use "foundation/mixins";
-@use "foundation/functions" as func;
+@use "foundation/global";
 
 #l-header {
-  z-index: func.z(content);
-  @include mixins.mq(md) {
-    padding: 100 * var.$vw 40 * var.$vw;
+  z-index: global.z(content);
+  @include global.mq(md) {
+    padding: 100 * global.$vw 40 * global.$vw;
   }
 }
 

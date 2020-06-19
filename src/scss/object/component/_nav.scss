@@ -1,6 +1,4 @@
-@use "foundation/variables" as var;
-@use "foundation/mixins";
-@use "foundation/functions" as func;
+@use "foundation/global";
 
 .c-nav {
   > ul {
