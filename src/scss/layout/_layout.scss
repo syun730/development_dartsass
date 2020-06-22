@@ -2,17 +2,17 @@
 
 #l-header {
   z-index: global.z(content);
+
   @include global.mq(md) {
     padding: 100 * global.$vw 40 * global.$vw;
   }
 }
 
-
 #l-header {
-  width: 100%;
-  height: 110px;
-  background: rgba(110,110,110,.8);
   position: fixed;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 110px;
+  background: rgba(110, 110, 110, 0.8);
 }
